@@ -1,0 +1,1 @@
+{"version":3,"file":"connectionVk.js","sourceRoot":"","sources":["../../db/connectionVk.ts"],"names":[],"mappings":";;AAAA,yCAAsC;AAGtC,MAAM,IAAI,GAAG,IAAI,qBAAS,CAAC,mBAAmB,EAAC,YAAY,EAAC,YAAY,EAAC;IACrE,IAAI,EAAE,eAAe;IACrB,OAAO,EAAE,OAAO;CAEnB,CAAC,CAAA;AAEF,kBAAe,IAAI,CAAA"}

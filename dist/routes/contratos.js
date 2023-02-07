@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const contratos_1 = require("../controllers/contratos");
+const router = (0, express_1.Router)();
+router.get('/contratos', contratos_1.getContratos);
+router.get('/vk', contratos_1.getContratosVK);
+router.get('/contratos/:id', contratos_1.getContratosid);
+router.get('/vk/:id', contratos_1.getContratosVKid);
+router.get('/facturas/vk/:id', contratos_1.getFacturasVk);
+router.get('/facturas/detalle/:id/:tipo', contratos_1.getFacturasDetalle);
+router.get('/facturas/total/:id', contratos_1.getFacturasTotal);
+router.get('/facturas/total/detalle/:id/:tipo', contratos_1.getFacturasTotalDetalle);
+router.get('/facturas/fecha/:fechin/:fechfin/:tipo', contratos_1.getFacturasFechas);
+router.get('/facturas/fecha/total/:fechin/:fechfin/:tipo', contratos_1.getFacturasFechasTotal);
+router.post('/facturas', contratos_1.postFacturas);
+router.delete('/facturacion/contratos/:id', contratos_1.deleteContratosFacturacion);
+router.delete('/facturacion/vk/:id', contratos_1.deleteContratosVKFacturacion);
+exports.default = router;
+//# sourceMappingURL=contratos.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"connectionFactura.js","sourceRoot":"","sources":["../../db/connectionFactura.ts"],"names":[],"mappings":";;AAAA,yCAAsC;AAGtC,MAAM,SAAS,GAAG,IAAI,qBAAS,CAAC,gBAAgB,EAAC,QAAQ,EAAC,gBAAgB,EAAC;IACvE,IAAI,EAAE,cAAc;IACpB,OAAO,EAAE,OAAO;CAEnB,CAAC,CAAA;AAEF,kBAAe,SAAS,CAAA"}
